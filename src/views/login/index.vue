@@ -1,6 +1,6 @@
 <template>
-  <div class="vue-container">
-    <div class="login-container" :style="login_bg">
+  <div class="vue-container" :style="login_bg">
+    <div class="login-container">
       <el-form ref="loginForm" :model="loginForm" class="login-form" auto-complete="on" label-position="left">
 
         <div class="login-title-container">
@@ -107,7 +107,6 @@ export default {
   min-height: 100%;
   width: 100%;
   .login-container{
-
     .login-form, .login-title-containe {
       position: relative;
       width: 520px;
